@@ -1,6 +1,9 @@
 body, header, main, article, footer {
   font-family: Arial, Helvetica, sans-serif;
-  border: 1px solid red;
+}
+
+body {
+  margin: 0px;
 }
 
 header {
@@ -17,7 +20,7 @@ a {
   display: flex;
   justify-content: space-between;
   color: white;
-  padding: 0 15px 0 15px;
+  padding: 0 30px 0 15px;
 }
 
 ls {
@@ -29,6 +32,12 @@ ls {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+.intro h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
 }
 
 .intro {
@@ -54,7 +63,7 @@ button {
 button:hover {
   color: #3882F6;
   background-color: white;
-  cursor: grab;
+  cursor: pointer;
 }
 
 .intro-pic {
@@ -62,6 +71,28 @@ button:hover {
   height: auto;
 }
 
+.main h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
 .island-containers {
   display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.island-card img {
+  width: 200px;
+  height: auto;
+  border: 4px solid darkred;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.island-card {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
 }
